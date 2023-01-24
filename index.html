@@ -1,26 +1,38 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="../dist/output.css" rel="stylesheet">
+    <link href="/dist/output.css" rel="stylesheet">
+    <title>Ruben Gomez Dopazo</title>
 </head>
 
 <body class="min-h-screen bg-gray-400">
+    <!--
+    <div id="app"></div> # The app will be mounted inside here 
+    <script type="module" src="/src/main.ts"></script>
+    -->
+    <!--
+    <NavBar msg="navMe" />
+    -->
     <nav class="relative w-full flex flex-wrap items-center justify-between py-3 bg-gray-700 text-gray-200 shadow-lg">
         <div class="w-full flex flex-wrap items-center justify-between px-6 h-7">
             <ul>
                 <li class="display: inline-block px-4 hover:text-teal-400 text-lime-400"><a href="index.html">About me</a></li>
-                <li class="display: inline-block px-4 hover:text-teal-400"><a href="experience.html">My working experience</a></li>
+                <li class="display: inline-block px-4 hover:text-teal-400"><a href="experience.html">My
+                        working experience</a></li>
                 <li class="display: inline-block px-4 hover:text-teal-400"><a href="studies.html">My studies</a></li>
                 <li class="display: inline-block px-4 hover:text-teal-400"><a href="projects.html">My projects</a></li>
             </ul>
             <img class="h-full" src="img/logo1 - white.png" alt="logo" />
         </div>
     </nav>
-    <div id="content-container" class="lg:w-3/5 mx-auto mt-16 md:w-full shadow-lg">
-        <div id="content-1" class="mb-16 grid grid-cols-2 gap-0 items-center bg-gray-700">
+    <!--
+    End of NavBar ()
+    -->
+    <div id="content-container" class="lg:w-3/5 mx-auto mt-16 md:w-full">
+        <div id="content-1" class="mb-16 grid grid-cols-2 gap-0 items-center bg-gray-700 shadow-lg">
             <div id="c1-profile_picture-container">
                 <img src="img/profile.JPG" alt="profile_picture">
             </div>
@@ -47,7 +59,7 @@
                 </p>
             </div>
         </div>
-        <div id="content-2" class="bg-gray-700 p-16">
+        <div id="content-2" class="bg-gray-700 p-16 shadow-lg">
             <div id="c2-row1" class="grid grid-cols-2 gap-12 items-center mb-16">
                 <div id="c2-r1-img-container">
                     <img src="img/Carrilana-2.png" alt="carrilanas">
