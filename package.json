@@ -2,6 +2,10 @@
   "name": "rebun-website",
   "version": "0.0.0",
   "private": true,
+  "engines": {
+    "node": "^16.17.0",
+    "npm": "^8.15.0"
+  },
   "scripts": {
     "dev": "vite",
     "build": "run-p type-check build-only",
@@ -13,7 +17,7 @@
     "vue": "^3.2.45"
   },
   "devDependencies": {
-    "@types/node": "^18.11.12",
+    "@types/node": "^16.17.0",
     "@vitejs/plugin-vue": "^4.0.0",
     "@vitejs/plugin-vue-jsx": "^3.0.0",
     "@vue/tsconfig": "^0.1.3",
