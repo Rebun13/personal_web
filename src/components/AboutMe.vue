@@ -6,7 +6,7 @@
     <div id="content-container" class="lg:w-3/5 mx-auto mt-16 md:w-full">
         <div id="content-1" class="mb-16 grid grid-cols-2 gap-0 items-center bg-gray-700 shadow-lg">
             <div id="c1-profile_picture-container">
-                <img src="../assets/profile.JPG" alt="profile_picture">
+                <img :src="'../assets/profile.JPG'" alt="profile_picture">
             </div>
             <div id="c1-text-container" class="mx-6 py-8 text-gray-200">
                 <div id="x1-text-title" class="mb-8">
