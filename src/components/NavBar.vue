@@ -22,7 +22,7 @@ defineProps({
         <li id="navPr" class="display: inline-block px-4 hover:text-teal-400"><a href="projects.html">My projects</a>
         </li>
       </ul>
-      <img class="h-full" src="../assets/logo1-white.png" alt="logo" />
+      <img class="h-full" src="/images/logo1-white.png" alt="logo" />
     </div>
   </nav>
 </template>
