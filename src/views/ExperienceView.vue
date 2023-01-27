@@ -1,10 +1,10 @@
 <script setup></script>
 
 <template>
-  <div id="experience" class="lg:w-3/5 mx-auto mt-16 md:w-full shadow-lg">
+  <div id="experience" class="lg:w-3/5 mx-auto mt-16 md:w-fullg">
     <div
       id="experience-1"
-      class="mb-16 grid grid-cols-2 gap-0 items-center bg-gray-700"
+      class="mb-16 grid grid-cols-2 gap-0 items-center bg-gray-700 shadow-l"
     >
       <div id="e1-profile_picture-container" class="mx-auto">
         <img src="/images/holder.jpeg" alt="profile_picture" />
@@ -25,7 +25,7 @@
     </div>
     <div
       id="experience-2"
-      class="mb-16 grid grid-cols-2 gap-0 items-center bg-gray-700"
+      class="mb-16 grid grid-cols-2 gap-0 items-center bg-gray-700 shadow-l"
     >
       <div id="e2-text-container" class="mx-6 py-8 text-gray-200">
         <div id="e2-text-title" class="mb-8">
@@ -44,7 +44,7 @@
     </div>
     <div
       id="experience-3"
-      class="mb-16 grid grid-cols-2 gap-0 items-center bg-gray-700"
+      class="mb-16 grid grid-cols-2 gap-0 items-center bg-gray-700 shadow-l"
     >
       <div id="e3-profile_picture-container" class="mx-auto px-8">
         <img src="/images/ctag.png" alt="ctag logo" />

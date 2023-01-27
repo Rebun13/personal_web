@@ -3,11 +3,11 @@
 <template>
   <div id="about-me" class="lg:w-3/5 mx-auto mt-16 md:w-full">
     <div
-      id="content-1"
+      id="about-me-1"
       class="mb-16 grid grid-cols-2 gap-0 items-center bg-gray-700 shadow-lg"
     >
       <div id="c1-profile_picture-container">
-        <img :src="'/images/profile.JPG'" alt="profile_picture" />
+        <img :src="'/images/profile.jpeg'" alt="profile_picture" />
       </div>
       <div id="c1-text-container" class="mx-6 py-8 text-gray-200">
         <div id="x1-text-title" class="mb-8">
@@ -30,7 +30,7 @@
         </p>
       </div>
     </div>
-    <div id="content-2" class="bg-gray-700 p-16 shadow-lg">
+    <div id="about-me-2" class="bg-gray-700 p-16 shadow-lg">
       <div id="c2-row1" class="grid grid-cols-2 gap-12 items-center mb-16">
         <div id="c2-r1-img-container">
           <img src="/images/Carrilana-2.png" alt="carrilanas" />
