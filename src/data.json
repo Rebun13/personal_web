@@ -1,0 +1,36 @@
+{
+  "sections": [
+    {
+      "name": "About me",
+      "slug": "aboutMe",
+      "image": "profile.jpeg",
+      "id": 1,
+      "description":
+        "My profile picture"
+    },
+    {
+      "name": "Experience",
+      "slug": "experience",
+      "image": "holder.jpeg",
+      "id": 2,
+      "description":
+        "My working experience"
+    },
+    {
+      "name": "Studies",
+      "slug": "studies",
+      "image": "holder.jpeg",
+      "id": 3,
+      "description":
+        "Everything I have studied until now"
+    },
+    {
+      "name": "Prjects",
+      "slug": "projects",
+      "image": "holder.jpeg",
+      "id": 4,
+      "description":
+        "Projects I am proud about"
+    }
+  ]
+}
