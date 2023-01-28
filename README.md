@@ -1,4 +1,4 @@
-# personal-web
+# personal_web
 
 ## Project setup
 ```
