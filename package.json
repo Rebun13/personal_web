@@ -7,7 +7,7 @@
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
     "postinstall": "npm run build",
-    "start": "node index.js"
+    "start": "npm run build"
   },
   "dependencies": {
     "@jridgewell/sourcemap-codec": "^1.4.14",
