@@ -1,4 +1,4 @@
-# cli-test
+# personal-web
 
 ## Project setup
 ```
