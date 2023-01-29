@@ -33,7 +33,7 @@
     <div id="about-me-2" class="bg-gray-700 p-16 shadow-lg">
       <div id="c2-row1" class="grid grid-cols-2 gap-12 items-center mb-16">
         <div id="c2-r1-img-container">
-          <img src="/images/Carrilana-2.png" alt="carrilanas" />
+          <img src="/images/Carrilana-2.jpeg" alt="carrilanas" />
         </div>
         <div id="c2-r1-txt-container" class="text-gray-200 text-justify">
           <p>
