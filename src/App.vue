@@ -4,7 +4,7 @@ import FooterBar from "./components/FooterBar.vue";
 </script>
 
 <template>
-  <div class="bg-bg-pattern">
+  <div class="bg-bg-pattern min-h-screen">
     <div
       id="nav"
       class="relative w-full flex flex-wrap items-center justify-between py-3 bg-gray-700 text-gray-200 shadow-lg"
@@ -41,7 +41,7 @@ import FooterBar from "./components/FooterBar.vue";
     <div class="container">
       <RouterView></RouterView>
     </div>
-    <div id="footer">
+    <div id="footer" class="object-bottom">
       <FooterBar />
     </div>
   </div>

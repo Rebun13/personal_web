@@ -7,15 +7,15 @@
     <div class="grid grid-cols-2 gap-12 items-center w-3/5 mx-auto">
       <div id="footer-column-1">
         <ul>
-          <li>13 Westfield Road</li>
-          <li>Dublin 6W</li>
-          <li>D6W C984</li>
+          <li>32 Mariavilla Way</li>
+          <li>Maynooth</li>
+          <li>W23 H7WX</li>
         </ul>
       </div>
       <div id="footer-column-2">
         <ul>
           <li>rubengdopazo@gmail.com</li>
-          <li>+34 653567864</li>
+          <li>+34 653567864 / +353 08 51286797</li>
           <li>https://www.linkedin.com/in/RubenGomezDopazo/</li>
           <li>https://www.github.com/Rebun13/</li>
         </ul>
