@@ -1,6 +1,5 @@
 <template>
   <div class="home">
-    <h1>Welcome to my website</h1>
     <div class="lg:w-3/5 mx-auto mt-16 md:w-full">
       <div class="grid grid-cols-4 gap-8 items-center">
         <RouterLink
@@ -9,7 +8,9 @@
           :to="section.slug"
         >
           <h1>{{ section.name }}</h1>
-          <img :src="`/images/${section.image}`" :alt="section.name" />
+          <div class="bg-gray-200 p-4 rounded-lg shadow-lg h-30">
+            <img :src="`/images/${section.image}`" :alt="section.name" />
+          </div>
         </RouterLink>
       </div>
     </div>

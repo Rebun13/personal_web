@@ -14,10 +14,34 @@
       </div>
       <div id="footer-column-2">
         <ul>
-          <li>rubengdopazo@gmail.com</li>
-          <li>+34 653567864 / +353 08 51286797</li>
-          <li>https://www.linkedin.com/in/RubenGomezDopazo/</li>
-          <li>https://www.github.com/Rebun13/</li>
+          <li>
+            <img
+              src="/images/email.png"
+              class="w-4 inline-block mr-2"
+            />rubengdopazo@gmail.com
+          </li>
+          <li>
+            <img
+              src="/images/phone.png"
+              class="h-4 w-4 inline-block mr-2"
+            />(ES) 653 567 864
+          </li>
+          <li>
+            <img
+              src="/images/phone.png"
+              class="h-4 w-4 inline-block mr-2"
+            />(IR) 08 51286797
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/RubenGomezDopazo/"
+              ><img
+                src="/images/linkedin.png"
+                class="h-4 w-4 inline-block mr-2"
+            /></a>
+            <a href="https://www.github.com/Rebun13/"
+              ><img src="/images/github.png" class="h-4 w-4 inline-block"
+            /></a>
+          </li>
         </ul>
       </div>
     </div>
