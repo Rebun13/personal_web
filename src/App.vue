@@ -9,7 +9,17 @@ import FooterBar from "./components/FooterBar.vue";
       id="nav"
       class="relative w-full flex flex-wrap items-center justify-between py-3 bg-gray-700 text-gray-200 shadow-lg"
     >
-      <div class="w-full flex flex-wrap items-center justify-between px-6 h-7">
+      <div class="md:hidden">
+        <RouterLink
+          class="display: inline-block px-4 hover:text-teal-400"
+          to="/"
+        >
+          Home
+        </RouterLink>
+      </div>
+      <div
+        class="hidden md:flex w-full flex-wrap items-center justify-between px-6 h-7"
+      >
         <RouterLink
           class="display: inline-block px-4 hover:text-teal-400"
           to="/"
@@ -35,7 +45,6 @@ import FooterBar from "./components/FooterBar.vue";
           to="/projects"
           >Projects</RouterLink
         >
-        <img class="h-full" src="/images/logo1-white.png" alt="logo" />
       </div>
     </div>
     <div class="container">
