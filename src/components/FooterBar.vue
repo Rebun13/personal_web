@@ -4,15 +4,17 @@
   <footer
     class="relative w-full flex flex-wrap items-center justify-between py-3 bg-gray-700 text-gray-200 shadow-lg mt-16"
   >
-    <div class="grid grid-cols-2 gap-12 items-center w-3/5 mx-auto">
-      <div id="footer-column-1">
+    <div
+      class="grid grid-cols-2 gap-12 items-center lg:w-3/5 md:w-full mx-auto"
+    >
+      <div id="footer-column-1" class="text-center">
         <ul>
           <li>32 Mariavilla Way</li>
           <li>Maynooth</li>
           <li>W23 H7WX</li>
         </ul>
       </div>
-      <div id="footer-column-2">
+      <div id="footer-column-2" class="text-center">
         <ul>
           <li>
             <img
