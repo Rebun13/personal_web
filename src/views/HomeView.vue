@@ -1,5 +1,5 @@
 <template>
-  <div class="home md:mt-16 mx-2 lg:mx-auto lg:w-3/5">
+  <div class="md:mt-16 mx-2 lg:mx-auto lg:w-3/5">
     <div
       id="introduction"
       class="p-8 mb-8 items-center bg-gray-700 rounded-lg shadow-lg"
