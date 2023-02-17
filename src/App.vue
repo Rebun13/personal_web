@@ -23,7 +23,7 @@ function toggleSideBar() {
     <div
       v-if="sideBarOpen"
       id="sideBar"
-      class="sideBar h-full w-64 fixed z-1 top-0 left-0 overflow-x-hidden pt-4 md:pt-16 transition bg-gray-700 text-gray-200 shadow-lg"
+      class="sideBar h-full w-64 fixed z-50 top-0 left-0 overflow-x-hidden pt-4 md:pt-16 transition bg-gray-700 text-gray-200 shadow-lg"
     >
       <a
         @click="toggleSideBar"
@@ -32,31 +32,31 @@ function toggleSideBar() {
       >
       <RouterLink
         @click="toggleSideBar"
-        class="block p-2 pl-8 transition hover:text-teal-400"
+        class="block px-4 my-2 hover:text-teal-400"
         to="/"
         >Home</RouterLink
       >
       <RouterLink
         @click="toggleSideBar"
-        class="block px-4 hover:text-teal-400"
+        class="block px-4 my-2 hover:text-teal-400"
         to="/aboutMe"
         >About me</RouterLink
       >
       <RouterLink
         @click="toggleSideBar"
-        class="block px-4 hover:text-teal-400"
+        class="block px-4 my-2 hover:text-teal-400"
         to="/experience"
         >Experience</RouterLink
       >
       <RouterLink
         @click="toggleSideBar"
-        class="block px-4 hover:text-teal-400"
+        class="block px-4 my-2 hover:text-teal-400"
         to="/studies"
         >Studies</RouterLink
       >
       <RouterLink
         @click="toggleSideBar"
-        class="block px-4 hover:text-teal-400"
+        class="block px-4 my-2 hover:text-teal-400"
         to="/projects"
         >Projects</RouterLink
       >
@@ -71,8 +71,8 @@ function toggleSideBar() {
       id="nav"
       class="relative w-full flex flex-wrap items-center justify-between py-3 bg-gray-700 text-gray-200 shadow-lg"
     >
-      <div class="md:hidden">
-        <p @click="toggleSideBar">🔻</p>
+      <div class="md:hidden text-4xl ml-6 mt-0">
+        <p @click="toggleSideBar">&equiv;</p>
       </div>
       <div
         class="hidden md:flex w-full flex-wrap items-center justify-between px-6 h-7"
