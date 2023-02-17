@@ -5,7 +5,7 @@
     class="relative w-full flex flex-wrap items-center justify-between py-3 bg-gray-700 text-gray-200 shadow-lg mt-16"
   >
     <div
-      class="grid grid-cols-2 gap-12 items-center lg:w-3/5 md:w-full mx-auto"
+      class="grid grid-cols-2 md:gap-12 items-center lg:w-3/5 md:w-full mx-auto"
     >
       <div id="footer-column-1" class="text-center">
         <ul>

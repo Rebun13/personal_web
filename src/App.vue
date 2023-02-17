@@ -18,7 +18,10 @@ function toggleSideBar() {
 </script>
 
 <template>
-  <div class="bg-bg-pattern min-h-screen">
+  <!-- <div class="bg-bg-pattern min-h-screen"> -->
+  <div
+    class="bg-gradient-to-br from-lime-400 to-teal-400 min-h-screen flex flex-col justify-between"
+  >
     <!-- Side bar -->
     <div
       v-if="sideBarOpen"
@@ -67,16 +70,11 @@ function toggleSideBar() {
       class="sideBar h-full w-0 fixed z-1 top-0 left-0 overflow-x-hidden pt-4 md:pt-16 transition bg-gray-700 text-gray-200 shadow-lg"
     ></div>
     <!-- Nav bar-->
-    <div
-      id="nav"
-      class="relative w-full flex flex-wrap items-center justify-between py-3 bg-gray-700 text-gray-200 shadow-lg"
-    >
+    <div id="nav" class="w-full py-3 bg-gray-700 text-gray-200 shadow-lg">
       <div class="md:hidden text-4xl ml-6 mt-0">
         <p @click="toggleSideBar">&equiv;</p>
       </div>
-      <div
-        class="hidden md:flex w-full flex-wrap items-center justify-between px-6 h-7"
-      >
+      <div class="hidden md:flex justify-start px-6 h-7">
         <RouterLink
           class="display: inline-block px-4 hover:text-teal-400"
           to="/"
