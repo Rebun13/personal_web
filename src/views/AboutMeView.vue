@@ -5,7 +5,7 @@
     <!-- First part -->
     <div
       id="about-me-1"
-      class="mb-16 mx-4 rounded-lg grid grid-cols-1 lg:grid-cols-2 gap-0 items-center bg-gray-700 shadow-lg"
+      class="mb-16 mx-2 rounded-lg grid grid-cols-1 lg:grid-cols-2 gap-0 items-center bg-gray-700 shadow-lg"
     >
       <div id="am1-cell1" class="p-8 order-2 lg:order-1 lg:row-span-2">
         <img
@@ -41,7 +41,7 @@
     <!-- Second part -->
     <div
       id="about-me-2"
-      class="mb-8 mx-4 rounded-lg grid grid-cols-1 lg:grid-cols-2 gap-0 bg-gray-700 shadow-lg"
+      class="mb-8 mx-2 rounded-lg grid grid-cols-1 lg:grid-cols-2 gap-0 bg-gray-700 shadow-lg"
     >
       <div id="am2-cell1" class="p-2 lg:p-0">
         <img
@@ -66,7 +66,7 @@
       </div>
     </div>
     <!-- Third part -->
-    <div id="about-me-3" class="mx-4 rounded-lg bg-gray-700 shadow-lg">
+    <div id="about-me-3" class="mx-2 rounded-lg bg-gray-700 shadow-lg">
       <div
         id="am3-cell1"
         class="mx-6 mb-8 py-8 text-gray-200 justify-center text-justify"
@@ -95,7 +95,7 @@
     <!-- Fourth part -->
     <div
       id="about-me-4"
-      class="mx-4 grid grid-cols-1 lg:grid-cols-2 gap-0 rounded-lg bg-gray-700 shadow-lg"
+      class="mx-2 grid grid-cols-1 lg:grid-cols-2 gap-0 rounded-lg bg-gray-700 shadow-lg"
     >
       <div id="am4-cell1">
         <img
