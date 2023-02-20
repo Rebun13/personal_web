@@ -1,5 +1,3 @@
-<script setup></script>
-
 <template>
   <div id="about-me" class="xl:w-3/5 mx-auto mt-16 w-full">
     <!-- First part -->
