@@ -1,0 +1,45 @@
+{
+    "studies": [
+        {
+            "id":1,
+            "title":"Bachelor's Degree in Mechanical Engineering",
+            "subtitle":"2013 - 2016 (not finished)",
+            "description":[
+                "The first time I entered the university, I opted for Mechanical Engineering. I was interested in motorsports, so my objective was toend up designing race cars. However, in my third year I understood that I had not enough motivation, and I left the degree.",
+                "During these three years I learnd a lot about maths and physics, two subjects I love."
+            ],
+            "picture":"/images/uvigo_logo.png"
+        },
+        {
+            "id":2,
+            "title":"Bachelor's Degree in Telecommunications Tecnologies Engineering",
+            "subtitle":"2017 - 2018 (not finished)",
+            "description":[
+                "After one year thinking about my future, I decided to sign up in Telecommunications Engineering. My intention was to find out if I really liked programming and IT, and I actually did.",
+                "During this year I learned C, Mathlab and electronics fundamentals, and got honors in Statistics, Programming (C) and Physics (Electronics)."
+            ],
+            "picture":"/images/uvigo_logo.png"
+        },
+        {
+            "id":3,
+            "title":"Bachelor's Degree in Computer Engineering",
+            "subtitle":"2018 - 2022",
+            "description":[
+                "In 2018 I decided to move to other town and started to study Computer Engineering. I really enjoyed these years, and discovered my passion as a developer",
+                "I got honors in Programming (Java), Automatons & Forming Languages and Digital Content Creation."
+            ],
+            "picture":"/images/uvigo_logo.png"
+        },
+        {
+            "id":4,
+            "title":"Master's Degree in Indie Videogames Development",
+            "subtitle":"2023 -",
+            "description":[
+                "I have always dreamed about working as videogame developer. I have played videogames since I have memory, and I have always thought that they are a wonderful way of artistic expression.",
+                "Therefore, this degree is the first step I need to become a game developer, and to get to know the artist inside me."
+
+            ],
+            "picture":"/images/trazos_logo.png"
+        }
+    ]
+}
