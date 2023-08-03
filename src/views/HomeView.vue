@@ -1,10 +1,10 @@
 <template>
-  <div class="md:mt-16 mx-2 lg:mx-auto lg:w-3/5">
+  <div class="md:mt-16 mx-2 lg:mx-auto w-4/5">
     <div
       id="introduction"
       class="p-8 mb-8 items-center bg-gray-700 rounded-lg shadow-lg"
     >
-      <h1 class="text-lime-400 text-4xl pb-4">
+      <h1 class="text-lime-400 text-4xl pb-4 uppercase">
         Welcome to my personal website
       </h1>
       <p class="text-gray-200 text-justify">
