@@ -49,8 +49,8 @@ function toggleSideBar() {
         @click="toggleSideBar"
         class="block px-4 my-2 hover:text-teal-400"
         to="/experience"
-        >Experience</RouterLink
-      >
+        >Experience
+      </RouterLink>
       <RouterLink
         @click="toggleSideBar"
         class="block px-4 my-2 hover:text-teal-400"
@@ -70,39 +70,40 @@ function toggleSideBar() {
       class="sideBar h-full w-0 fixed z-1 top-0 left-0 overflow-x-hidden pt-4 md:pt-16 transition bg-gray-700 text-gray-200 shadow-lg"
     ></div>
     <!-- Nav bar-->
-    <div id="nav" class="w-full py-3 bg-gray-700 text-gray-200 shadow-lg">
+    <div
+      id="nav"
+      class="w-4/5 mx-auto py-6 bg-gray-700 text-gray-200 shadow-lg rounded-b-lg font-bold text-xl"
+    >
       <div class="md:hidden text-4xl ml-6 mt-0">
         <p @click="toggleSideBar">&equiv;</p>
       </div>
-      <div class="hidden md:flex justify-start px-6 h-7">
-        <RouterLink
-          class="display: inline-block px-4 hover:text-teal-400"
-          to="/"
+      <div class="hidden md:flex justify-start px-12 h-7 gap-16">
+        <RouterLink class="display: inline-block hover:text-teal-400" to="/"
           >Home</RouterLink
         >
         <RouterLink
-          class="display: inline-block px-4 hover:text-teal-400"
+          class="display: inline-block hover:text-teal-400"
           to="/aboutMe"
           >About me</RouterLink
         >
         <RouterLink
-          class="display: inline-block px-4 hover:text-teal-400"
+          class="display: inline-block hover:text-teal-400"
           to="/experience"
           >Experience</RouterLink
         >
         <RouterLink
-          class="display: inline-block px-4 hover:text-teal-400"
+          class="display: inline-block hover:text-teal-400"
           to="/studies"
           >Studies</RouterLink
         >
         <RouterLink
-          class="display: inline-block px-4 hover:text-teal-400"
+          class="display: inline-block hover:text-teal-400"
           to="/projects"
           >Projects</RouterLink
         >
       </div>
     </div>
-    <div class="container">
+    <div class="content">
       <RouterView></RouterView>
     </div>
     <div id="footer" class="object-bottom">
