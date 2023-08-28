@@ -1,14 +1,14 @@
 <script>
-import experienceData from "@/studies.json";
+import experienceData from '@/assets/studies.json'
 
 //const studies = experienceData.studies;
 export default {
   data() {
     return {
-      studies: experienceData.studies,
-    };
-  },
-};
+      studies: experienceData.studies
+    }
+  }
+}
 </script>
 
 <template>
@@ -46,9 +46,7 @@ export default {
         </div>
       </div>
       <!-- Slider indicators -->
-      <div
-        class="absolute z-30 flex space-x-3 -translate-x-1/2 bottom-5 left-1/2"
-      >
+      <div class="absolute z-30 flex space-x-3 -translate-x-1/2 bottom-5 left-1/2">
         <button
           v-for="study in studies"
           :key="study.id"
