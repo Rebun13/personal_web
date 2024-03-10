@@ -90,7 +90,7 @@
                 </p>
               </div>
               <div class="flex items-center basis-1/3 md:basis-1/6 justify-end">
-                <img src="/images/CTAG.png" class="bg-gray-200 rounded-lg p-2" />
+                <img src="/images/ctag.png" class="bg-gray-200 rounded-lg p-2" />
               </div>
             </div>
           </div>
